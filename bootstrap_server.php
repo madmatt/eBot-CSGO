@@ -13,8 +13,7 @@ $check["mysql"] = extension_loaded('mysql');
 $check["spl"] = extension_loaded('spl');
 $check["sockets"] = extension_loaded("sockets");
 
-define('EBOT_DIRECTORY', __DIR__);
-define('APP_ROOT', __DIR__ . DIRECTORY_SEPARATOR);
+require_once('config/constants.php');
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 require_once 'steam-condenser.php';
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'websocket' . DIRECTORY_SEPARATOR . 'websocket.client.php';
