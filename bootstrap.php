@@ -14,8 +14,7 @@ $check["spl"] = extension_loaded('spl');
 $check["sockets"] = extension_loaded("sockets");
 $check["pthreads"] = extension_loaded("pthreads");
 
-define('EBOT_DIRECTORY', __DIR__);
-define('APP_ROOT', __DIR__ . DIRECTORY_SEPARATOR);
+require_once('config/constants.php');
 
 require_once APP_ROOT . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 require_once 'steam-condenser.php';
