@@ -14,7 +14,7 @@ use \eTools\Utils\Singleton;
 use \eTools\Utils\Logger;
 
 /**
- * @method Config getInstance() Description
+ * @method static Config getInstance() Return a singleton Config object
  */
 class Config extends Singleton {
 
