@@ -1,7 +1,7 @@
 eBot-CSGO
 ==============
 
-[![Build Status](https://secure.travis-ci.org/madmatt/eBot-CSGO.png?branch=develop)](http://travis-ci.org/madmatt/eBot-CSGO)
+[![Build Status](https://secure.travis-ci.org/madmatt/eBot-CSGO.png?branch=develop)](http://travis-ci.org/madmatt/eBot-CSGO) [![Code Coverage](https://scrutinizer-ci.com/g/madmatt/eBot-CSGO/badges/coverage.png?b=develop)](https://scrutinizer-ci.com/g/madmatt/eBot-CSGO/?branch=develop) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/madmatt/eBot-CSGO/badges/quality-score.png?b=develop)](https://scrutinizer-ci.com/g/madmatt/eBot-CSGO/?branch=develop)
 
 The eBot is a full managed server-bot written in PHP and nodeJS. eBot features easy match creation and tons of player and matchstats. Once it's setup, using the eBot is simple and fast.
 
