@@ -50,7 +50,7 @@ class Task {
         return $this->status;
     }
 
-    public function & getObjet() {
+    public function & getObject() {
         return $this->obj;
     }
 
